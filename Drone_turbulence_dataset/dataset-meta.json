@@ -1,0 +1,1794 @@
+{
+    "name": "Drone_turbulence_data",
+    "description": "",
+    "id": "01jp2fycgx7034sdw6m1g809c9",
+    "classes": [
+        "no_power",
+        "Grounded",
+        "Left",
+        "right",
+        "forward",
+        "backward",
+        "air_turbulence",
+        "air_stable",
+        "unlabeled"
+    ],
+    "metadata": {},
+    "data": [
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:21.913000",
+            "start_time_ts": "3.143772",
+            "end_time_ts": "21.905899",
+            "split_index": 0,
+            "class": "backward",
+            "file": {
+                "id": "fxjhc5ly2plyvlrtn67yvlibsolcareckbt2cem3cdb47hlkebvq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "backward/SensorTile.Box_PRO_acquisition_0_fxjhc5ly.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "jswzn2gvd2xr265knzvdavb7k6bbfowtvhi76q4wtqz24cxsal6a====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "313f136d-10d3-43f9-bf73-ed6827d8251f",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T17:00:20.913Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:58:59.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gxewp2h9dzh0mdy9mcny1"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:03:18.584000",
+            "start_time_ts": "152.861065",
+            "end_time_ts": "190.580764",
+            "split_index": 0,
+            "class": "air_turbulence",
+            "file": {
+                "id": "7lzdp5drffn5cwrzy6suilqm7ap7swem6ktoo52t7j4kzilehz7a====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "air_turbulence/20250307_15_28_20_0_7lzdp5dr.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "tqhnfkix7d3ynyhrxqz4hbauelafthvi2gemd5qlewxkrk6fcbqa====",
+                "metadata": {
+                    "name": "20250307_15_28_20",
+                    "uuid": "13960cbe-3d82-4aa1-89fd-2cb50bdbdd38",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-07T15:35:54.584Z",
+                    "interface": 0,
+                    "start_time": "2025-03-07T15:32:36.000Z",
+                    "description": "Empty",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2wbng7hh1tn67n3as0kf3a"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:03:18.584000",
+            "start_time_ts": "123.608947",
+            "end_time_ts": "150.166797",
+            "split_index": 0,
+            "class": "air_turbulence",
+            "file": {
+                "id": "o75jm25koetlpskxomrr6vtxrvt5n4sqbbyehvsv6h3ofc3a2iaa====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "air_turbulence/20250307_15_28_20_0_o75jm25k.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "tqhnfkix7d3ynyhrxqz4hbauelafthvi2gemd5qlewxkrk6fcbqa====",
+                "metadata": {
+                    "name": "20250307_15_28_20",
+                    "uuid": "13960cbe-3d82-4aa1-89fd-2cb50bdbdd38",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-07T15:35:54.584Z",
+                    "interface": 0,
+                    "start_time": "2025-03-07T15:32:36.000Z",
+                    "description": "Empty",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2wbmyvp023v02sk7n4mnfh"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:03:18.584000",
+            "start_time_ts": "85.119113",
+            "end_time_ts": "118.605290",
+            "split_index": 0,
+            "class": "air_turbulence",
+            "file": {
+                "id": "4metkshgmedw35veiy4kojiwmcn4gsq3v4hlcb2g7asv4oama6sq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "air_turbulence/20250307_15_28_20_0_4metkshg.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "tqhnfkix7d3ynyhrxqz4hbauelafthvi2gemd5qlewxkrk6fcbqa====",
+                "metadata": {
+                    "name": "20250307_15_28_20",
+                    "uuid": "13960cbe-3d82-4aa1-89fd-2cb50bdbdd38",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-07T15:35:54.584Z",
+                    "interface": 0,
+                    "start_time": "2025-03-07T15:32:36.000Z",
+                    "description": "Empty",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2wbmd85bp5dbcfd7b22bjm"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:03:18.584000",
+            "start_time_ts": "19.300581",
+            "end_time_ts": "70.492962",
+            "split_index": 0,
+            "class": "air_turbulence",
+            "file": {
+                "id": "65q6zd7qi55b7oaiextxckpqa3hyaujded3zg7dkgzhylr3ga26q====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "air_turbulence/20250307_15_28_20_0_65q6zd7q.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "tqhnfkix7d3ynyhrxqz4hbauelafthvi2gemd5qlewxkrk6fcbqa====",
+                "metadata": {
+                    "name": "20250307_15_28_20",
+                    "uuid": "13960cbe-3d82-4aa1-89fd-2cb50bdbdd38",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-07T15:35:54.584Z",
+                    "interface": 0,
+                    "start_time": "2025-03-07T15:32:36.000Z",
+                    "description": "Empty",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2wbktrw01zn1tc73vkswxw"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:17.747000",
+            "start_time_ts": "63.430326",
+            "end_time_ts": "76.628795",
+            "split_index": 0,
+            "class": "air_turbulence",
+            "file": {
+                "id": "kokd4i4dj2t4cqqruph52h2aoc2kveeh4r5mkhknjrqfit4v32vq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "air_turbulence/SensorTile.Box_PRO_acquisition_0_kokd4i4d.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "ugpbmi5f2vnz7nctnf34qp7tb6ugtm6ftg4jkij46dpgh5okrekq====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "1231c8c1-2862-447e-9ff9-1bf5366940c4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T17:51:52.747Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T17:50:35.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2w20q8v1a9e97axrbsgzc8"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:17.747000",
+            "start_time_ts": "42.209304",
+            "end_time_ts": "60.842394",
+            "split_index": 0,
+            "class": "air_turbulence",
+            "file": {
+                "id": "rslcc4nrdaxl2cnaesmgjqeg4os65pts2eft4emm4qyrtoyhxlea====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "air_turbulence/SensorTile.Box_PRO_acquisition_0_rslcc4nr.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "ugpbmi5f2vnz7nctnf34qp7tb6ugtm6ftg4jkij46dpgh5okrekq====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "1231c8c1-2862-447e-9ff9-1bf5366940c4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T17:51:52.747Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T17:50:35.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2w205dw43nc1aqsav4s2rp"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:17.747000",
+            "start_time_ts": "14.000913",
+            "end_time_ts": "31.598805",
+            "split_index": 0,
+            "class": "air_turbulence",
+            "file": {
+                "id": "6oudib23l5gx4xgimvy5jdc5cv3hxwerv4p4xj265krzy2wjp4ha====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "air_turbulence/SensorTile.Box_PRO_acquisition_0_6oudib23.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "ugpbmi5f2vnz7nctnf34qp7tb6ugtm6ftg4jkij46dpgh5okrekq====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "1231c8c1-2862-447e-9ff9-1bf5366940c4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T17:51:52.747Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T17:50:35.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2w1zjm4vvwxyvj6p6dpnmx"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:12.181000",
+            "start_time_ts": "39.997698",
+            "end_time_ts": "71.206534",
+            "split_index": 0,
+            "class": "air_stable",
+            "file": {
+                "id": "yecpm7qidbpxujqfsn6whg3g2xzvetqmb6zr4udzzbxge2rrmfoq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "air_stable/SensorTile.Box_PRO_acquisition_0_yecpm7qi.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "3o5u33tqg46k3ktbmekf2366tbywkwzq6kwgklhptvecnyktawza====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "3e30c262-2427-41c5-9f82-66a003e504db",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T17:50:27.181Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T17:49:15.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2vnyhr2avawywn3f9ktm3d"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:12.181000",
+            "start_time_ts": "16.212970",
+            "end_time_ts": "39.722730",
+            "split_index": 0,
+            "class": "air_stable",
+            "file": {
+                "id": "6oiwq267crceslliw6je2w73uacwnrjogsr66bvsts3b23m3davq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "air_stable/SensorTile.Box_PRO_acquisition_0_6oiwq267.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "3o5u33tqg46k3ktbmekf2366tbywkwzq6kwgklhptvecnyktawza====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "3e30c262-2427-41c5-9f82-66a003e504db",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T17:50:27.181Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T17:49:15.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2vnxz0dmraqpnrgjw0hxd9"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:21.913000",
+            "start_time_ts": "59.753247",
+            "end_time_ts": "79.970783",
+            "split_index": 0,
+            "class": "backward",
+            "file": {
+                "id": "xo3wwqs4q5ub3d4fza5gpuwvo2biblojcxwtyh7um725tvd5kdxa====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "backward/SensorTile.Box_PRO_acquisition_0_xo3wwqs4.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "jswzn2gvd2xr265knzvdavb7k6bbfowtvhi76q4wtqz24cxsal6a====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "313f136d-10d3-43f9-bf73-ed6827d8251f",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T17:00:20.913Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:58:59.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gxgj4qj4gtpez8vm78an8"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:21.913000",
+            "start_time_ts": "30.639935",
+            "end_time_ts": "58.621064",
+            "split_index": 0,
+            "class": "backward",
+            "file": {
+                "id": "55rehbs4wsm7sr6ckqez6ge74qh54z7z2hbmo4xwkdkkker6hgfq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "backward/SensorTile.Box_PRO_acquisition_0_55rehbs4.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "jswzn2gvd2xr265knzvdavb7k6bbfowtvhi76q4wtqz24cxsal6a====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "313f136d-10d3-43f9-bf73-ed6827d8251f",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T17:00:20.913Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:58:59.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gxg0fvemfgvcvvk2ngd0r"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:21.913000",
+            "start_time_ts": "22.391124",
+            "end_time_ts": "29.992970",
+            "split_index": 0,
+            "class": "backward",
+            "file": {
+                "id": "x4o7xh6baztigjcrvtqm2jpi5hilbptcpsqxdy66k74yuqq4q6pa====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "backward/SensorTile.Box_PRO_acquisition_0_x4o7xh6b.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "jswzn2gvd2xr265knzvdavb7k6bbfowtvhi76q4wtqz24cxsal6a====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "313f136d-10d3-43f9-bf73-ed6827d8251f",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T17:00:20.913Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:58:59.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gxfekg1fs1cej9tcdhrs0"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:02:45.330000",
+            "start_time_ts": "1.362669",
+            "end_time_ts": "79.005336",
+            "split_index": 0,
+            "class": "no_power",
+            "file": {
+                "id": "bzsiha77th4krin3e2kokbjdw4uoi56xcucuiipkomucmtfoutea====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "no_power/SensorTile.Box_PRO_acquisition_0_bzsiha77.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "zwwszx4bupa4z74jwrhko2iiol6mnzmiq74syp4ikfytd4hpbhcq====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "10e1390e-30f6-4d04-9d6d-44151f6d7ac6",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T16:48:40.330Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:45:55.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2g73gvzgagtef5zph0sp89"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:29.365000",
+            "start_time_ts": "71.504731",
+            "end_time_ts": "88.657620",
+            "split_index": 0,
+            "class": "forward",
+            "file": {
+                "id": "vtdu3k4geiag7mrk7mkwe7yrra27euxzmindtm22adoy7epj626a====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "forward/SensorTile.Box_PRO_acquisition_0_vtdu3k4g.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "uktntvfdgaqsrztyalw3kjubarswq3xrvh5lgxiccwjow7hd5esq====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "0c7976e3-03d2-4349-b2dc-72eb148c7a56",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T16:58:49.365Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:57:20.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gtf1n8xp62r1mz6ansmqa"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:29.365000",
+            "start_time_ts": "47.898307",
+            "end_time_ts": "70.655579",
+            "split_index": 0,
+            "class": "forward",
+            "file": {
+                "id": "notol2ra4kafd5td4zrw2adloejddlqqbepw2yrfsoeu2xuxln6a====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "forward/SensorTile.Box_PRO_acquisition_0_notol2ra.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "uktntvfdgaqsrztyalw3kjubarswq3xrvh5lgxiccwjow7hd5esq====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "0c7976e3-03d2-4349-b2dc-72eb148c7a56",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T16:58:49.365Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:57:20.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gtege4dm3erjmw7zbys11"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:29.365000",
+            "start_time_ts": "21.404706",
+            "end_time_ts": "32.104067",
+            "split_index": 0,
+            "class": "forward",
+            "file": {
+                "id": "y6qi4nmdxehedgic6p4rdoatfgkpln6b3bdvwljr5sj4xtiz6fhq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "forward/SensorTile.Box_PRO_acquisition_0_y6qi4nmd.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "uktntvfdgaqsrztyalw3kjubarswq3xrvh5lgxiccwjow7hd5esq====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "0c7976e3-03d2-4349-b2dc-72eb148c7a56",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T16:58:49.365Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:57:20.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gtdyr89z5h7n81xxq760d"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:29.365000",
+            "start_time_ts": "7.478530",
+            "end_time_ts": "21.065044",
+            "split_index": 0,
+            "class": "forward",
+            "file": {
+                "id": "muq2jskzhwyauotjugmh5hzoyjrk4puh7valfcfmg6alik646n7q====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "forward/SensorTile.Box_PRO_acquisition_0_muq2jskz.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "uktntvfdgaqsrztyalw3kjubarswq3xrvh5lgxiccwjow7hd5esq====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "0c7976e3-03d2-4349-b2dc-72eb148c7a56",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T16:58:49.365Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:57:20.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gtd374q2rthsxbk6jj3qf"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:18.207000",
+            "start_time_ts": "60.522327",
+            "end_time_ts": "76.963639",
+            "split_index": 0,
+            "class": "right",
+            "file": {
+                "id": "rnvtqgqmlcqydyja2to3ia3nk5flmoyfgae3ljxkvrwvfwfytl2q====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "right/SensorTile.Box_PRO_acquisition_0_rnvtqgqm.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "c4phr6s33o4yyc7fmfibyy3hl4rf7g6ogyxebqsnq5dm5xxugm7a====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "1b850a5b-1b02-48e8-889b-46bc37d6d110",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T16:57:08.207Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:55:50.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gp5k6s3ah2kphq40z6p0j"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:18.207000",
+            "start_time_ts": "48.076111",
+            "end_time_ts": "57.295529",
+            "split_index": 0,
+            "class": "right",
+            "file": {
+                "id": "qgtibs2apr3mtrypvioi5exvy5oljcnsxyd57mdscoq5jkwmizrq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "right/SensorTile.Box_PRO_acquisition_0_qgtibs2a.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "c4phr6s33o4yyc7fmfibyy3hl4rf7g6ogyxebqsnq5dm5xxugm7a====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "1b850a5b-1b02-48e8-889b-46bc37d6d110",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T16:57:08.207Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:55:50.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gp51srq9dg47db1exdyq0"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:18.207000",
+            "start_time_ts": "39.164015",
+            "end_time_ts": "47.615141",
+            "split_index": 0,
+            "class": "right",
+            "file": {
+                "id": "lrgclgjqll7fduojcv2f2k7k7gqq53horjjh6rao3prgd3dmatsa====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "right/SensorTile.Box_PRO_acquisition_0_lrgclgjq.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "c4phr6s33o4yyc7fmfibyy3hl4rf7g6ogyxebqsnq5dm5xxugm7a====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "1b850a5b-1b02-48e8-889b-46bc37d6d110",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T16:57:08.207Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:55:50.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gp4gbj4ymf0sqer5hda59"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:18.207000",
+            "start_time_ts": "25.795885",
+            "end_time_ts": "39.164015",
+            "split_index": 0,
+            "class": "right",
+            "file": {
+                "id": "awnns2g6pnxczbk6pkziichgng37hcpdavgy5gyjg6yczie2fxbq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "right/SensorTile.Box_PRO_acquisition_0_awnns2g6.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "c4phr6s33o4yyc7fmfibyy3hl4rf7g6ogyxebqsnq5dm5xxugm7a====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "1b850a5b-1b02-48e8-889b-46bc37d6d110",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T16:57:08.207Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:55:50.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gp3z75xbhmfvv0tjebvkn"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:01:18.207000",
+            "start_time_ts": "5.513277",
+            "end_time_ts": "25.642228",
+            "split_index": 0,
+            "class": "right",
+            "file": {
+                "id": "g7eha7sairwklgtejnpfugti55dpmfwtp2lmgzou2vaxwv6s7fua====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "right/SensorTile.Box_PRO_acquisition_0_g7eha7sa.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "c4phr6s33o4yyc7fmfibyy3hl4rf7g6ogyxebqsnq5dm5xxugm7a====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "1b850a5b-1b02-48e8-889b-46bc37d6d110",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T16:57:08.207Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:55:50.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gp3czq0j0100txgbwm1cn"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:02:09.348000",
+            "start_time_ts": "4.874559",
+            "end_time_ts": "55.266232",
+            "split_index": 0,
+            "class": "Left",
+            "file": {
+                "id": "mwprbrhhgh3p4ozok2i2lfslnyyvr47qh5jwh3lbndioqegu2fya====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "Left/SensorTile.Box_PRO_acquisition_0_mwprbrhh.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "7acxkitrgmviyavghdu5uq3t2lxst5p66zydmsruocxrzrpyhtva====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "009b0d1c-2985-4727-9343-c5cc32b56dbd",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T16:55:40.348Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:53:31.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2gh597phxeymb31at3mb7b"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:02:45.330000",
+            "start_time_ts": "79.975846",
+            "end_time_ts": "164.085758",
+            "split_index": 0,
+            "class": "Grounded",
+            "file": {
+                "id": "ytztkd5fqyerqccg6dtmxwxhthickbhig42b6ptwusr3desnd3ia====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "Grounded/SensorTile.Box_PRO_acquisition_0_ytztkd5f.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 120.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "zwwszx4bupa4z74jwrhko2iiol6mnzmiq74syp4ikfytd4hpbhcq====",
+                "metadata": {
+                    "name": "SensorTile.Box_PRO_acquisition",
+                    "uuid": "10e1390e-30f6-4d04-9d6d-44151f6d7ac6",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-03-11T16:48:40.330Z",
+                    "interface": 0,
+                    "start_time": "2025-03-11T16:45:55.000Z",
+                    "description": "",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jp2g742h7r8eftryakqem60z"
+            }
+        }
+    ]
+}
