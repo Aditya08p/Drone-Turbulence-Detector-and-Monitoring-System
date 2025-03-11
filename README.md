@@ -1,5 +1,13 @@
 # Assistive-Turbulence-Detection-and-Flight-Control-Module
-The Assistive Turbulence Detection and Flight Control Module is designed to improve drone stability by detecting turbulence in real-time and providing categorized output to assist in flight control adjustments.
+Turbulence poses significant challenges to the safety and efficiency of drone operations, particularly for delivery drones. Unanticipated turbulent conditions can lead to hardware malfunctions, destabilization, and increased power consumption, jeopardizing mission success and safety.
+
+The Assistive Turbulence Detection and Flight Control Module is designed to improve drone stability by detecting turbulence in real-time and providing categorized output to assist in flight control adjustments. The system consists of an onboard STEVAL-MKBOXPRO module that logs motion data and classifies flight conditions based on a trained model.
+
+Real-Time Sensor Data Acquisition: The system continuously records data from an onboard STEVAL-MKBOXPRO module, which includes an accelerometer and gyroscope.
+
+MLC Configuration and Classification: The collected data is used to generate a dataset, which is then processed using the ST AIoT Craft tool to generate a Machine Learning Core (MLC) configuration. This configuration enables the board to classify different flight conditions, distinguishing between turbulence, stable flight, and various tilt states.
+
+Validation and Output Display: The MLC configuration is flashed onto the sensor module, and the classified output is displayed via Bluetooth on the ST AIoT Craft mobile application for real-time validation.
 
 # How to Reproduce the Demo
 ## System Requirements
