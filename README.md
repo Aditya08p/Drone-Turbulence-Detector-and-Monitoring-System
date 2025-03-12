@@ -9,6 +9,9 @@ MLC Configuration and Classification: The collected data is used to generate a d
 
 Validation and Output Display: The MLC configuration is flashed onto the sensor module, and the classified output is displayed via Bluetooth on the ST AIoT Craft mobile application for real-time validation.
 
+## Training Stats and workflow
+![WhatsApp Image 2025-03-12 at 22 18 51_7ce9fb41](https://github.com/user-attachments/assets/4746a017-9c9c-4049-a03e-c041462a7c72)
+
 # How to Reproduce the Demo
 ## System Requirements
 STEVAL-MKBOXPRO: Equipped with the included MicroSD card.
@@ -16,6 +19,7 @@ STEVAL-MKBOXPRO: Equipped with the included MicroSD card.
 Android Device: Installed with the latest version of the ST AIoT Craft mobile application supporting datalog2_3.0 firmware.
 
 MicroSD Card Reader: For data transfer purposes.
+
 
 ## Steps to Run the System
 Data Acquisition: The sensor module is connected to the mobile app and datalogging is done while ensuring that both accelerometer and gyroscope data are recorded at a 120Hz Output Data Rate, to collect real-time flight data during various operational conditions(no_power, grounded, left, right, forward, backward tilts, air_stable and air_turbulence).
