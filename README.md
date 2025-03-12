@@ -9,6 +9,10 @@ MLC Configuration and Classification: The collected data is used to generate a d
 
 Validation and Output Display: The MLC configuration is flashed onto the sensor module, and the classified output is displayed via Bluetooth on the ST AIoT Craft mobile application for real-time validation.
 
+## Block Diagram
+![Assistive turbulence block diagram](https://github.com/user-attachments/assets/813f8a8e-b457-44b4-a0fd-562f7552efc3)
+
+
 ## Training Stats and workflow
 ![WhatsApp Image 2025-03-12 at 22 18 51_7ce9fb41](https://github.com/user-attachments/assets/4746a017-9c9c-4049-a03e-c041462a7c72)
 
