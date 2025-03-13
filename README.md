@@ -70,8 +70,12 @@ Roll_Right: The drone is leaning to the right, similar to left tilt but in the o
 
 ### No_power, Armed, Roll and Pitch Variations
 
-<video controls src="Roll_and_Pitch_Validation.mp4" title="Armed, Roll and Pitch Variations"></video>
+<video controls src="Roll_and_Pitch_Validation.mov" title="Armed, Roll and Pitch Variations"></video>
+
+[Download Roll_and_Pitch_Validation.mov](https://github.com/Aditya08p/Drone-Turbulence-Detector-and-Monitoring-System/raw/main/Roll_and_Pitch_Validation.mov)
 
 ### Turbulence and Stable Validation
 
-<video controls src="Turbulence_and_stable_validation.mp4" title="Turbulence and Stable Classification"></video>
+<video controls src="Turbulence_and_stable_validation.mov" title="Turbulence and Stable Classification"></video>
+
+[Download Turbulence_and_stable_validation.mov](https://github.com/Aditya08p/Drone-Turbulence-Detector-and-Monitoring-System/raw/main/Turbulence_and_stable_validation.mov)
