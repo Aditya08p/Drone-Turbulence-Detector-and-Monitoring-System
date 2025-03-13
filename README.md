@@ -34,7 +34,7 @@ Drone/UAV: For testing and implementation
 ## Steps to Run the System
 Data Acquisition: The sensor module is connected to the mobile app and datalogging is done while ensuring that both accelerometer and gyroscope data are recorded at a 240Hz Output Data Rate, to collect real-time flight data during various operational conditions(no_power, grounded, left, right, forward, backward tilts, air_stable and air_turbulence).
 
-Data Upload: Collected data is transferred to the ST AIoT Craft web dashboard through SD card, where a new dataset is created, and .CSV files or datalog folders are uploaded.
+Data Upload: Collected data is transferred to the ST AIoT Craft web dashboard through SD card/ or existing dataset is used, and .CSV files or datalog folders are uploaded.
 
 Model Creation: Within the ST AIoT Craft platform, a new project and corresponding model are created. The dataset is assigned to the model, and the MLC inference rate is kept the same as the ODR of the sensors. 
 
