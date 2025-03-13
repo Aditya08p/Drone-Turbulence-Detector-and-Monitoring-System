@@ -1,4 +1,4 @@
-# Assistive-Turbulence-Detection-and-Flight-Control-Module
+# Drone Turbulence Detector and Monitoring System
 Turbulence poses significant challenges to the safety and efficiency of drone operations, particularly for delivery drones. Unanticipated turbulent conditions can lead to hardware malfunctions, destabilization, and increased power consumption, jeopardizing mission success and safety.
 
 The Drone Turbulence Detector and Monitoring System is designed to improve drone stability by detecting turbulence in real-time and providing categorized output to assist in monitoring flight patterns and maneuverability. The system consists of an onboard STEVAL-MKBOXPRO (SensorTile.Box PRO) module mounted on an FPV Drone that logs motion data and classifies flight conditions based on a trained model.
