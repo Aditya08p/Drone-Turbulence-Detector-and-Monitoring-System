@@ -12,11 +12,13 @@ MLC Configuration and Classification: The collected data is used to generate a d
 Validation and Output Display: The MLC configuration is flashed onto the sensor module, and the classified output is displayed via Bluetooth on the ST AIoT Craft mobile application for real-time validation.
 
 ## Block Diagram
-![Assistive turbulence block diagram](https://github.com/user-attachments/assets/813f8a8e-b457-44b4-a0fd-562f7552efc3)
+<img src="Project_images/Block_Diagram.png" alt="Block Diagram">
+
 
 
 ## Training Stats and workflow
-![WhatsApp Image 2025-03-12 at 22 18 51_7ce9fb41](https://github.com/user-attachments/assets/4746a017-9c9c-4049-a03e-c041462a7c72)
+<img src="Project_images/training stats and accuracy.png" alt="training stats with 99.43% accuracy">
+
 
 # How to Reproduce the Demo
 ## System Requirements
@@ -25,6 +27,8 @@ STEVAL-MKBOXPRO: Equipped with the included MicroSD card.
 Android Device: Installed with the latest version of the ST AIoT Craft mobile application supporting datalog2_3.0 firmware.
 
 MicroSD Card Reader: For data transfer purposes.
+
+Drone/UAV: For testing and implementation
 
 
 ## Steps to Run the System
@@ -58,3 +62,7 @@ Pitch_Backward: The drone is tilting backward, which may indicate deceleration o
 Roll_Left: The drone is leaning to the left, which could be caused by maneuvering or external factors.
 
 Roll_Right: The drone is leaning to the right, similar to left tilt but in the opposite direction.
+
+## Training Results
+<img src="Project_images/training results.png" alt="Training results">
+
