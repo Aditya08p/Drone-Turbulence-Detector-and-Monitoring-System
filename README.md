@@ -66,3 +66,12 @@ Roll_Right: The drone is leaning to the right, similar to left tilt but in the o
 ## Training Results
 <img src="Project_images/training results.png" alt="Training results">
 
+## Validation Results
+
+### No_power, Armed, Roll and Pitch Variations
+
+<video controls src="Roll_and_Pitch_Validation.mp4" title="Armed, Roll and Pitch Variations"></video>
+
+### Turbulence and Stable Validation
+
+<video controls src="Turbulence_and_stable_validation.mp4" title="Turbulence and Stable Classification"></video>
